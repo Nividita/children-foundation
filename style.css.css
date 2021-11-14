@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+.logo img{
+width: 20%;
+displiay: flex;
+border-flex: ;
+
+}
+
+@keyframes slide{
+   0%{
+        background-image: url("C:\Users\abc\Desktop\images\child1.jpg");
+        
+    }
+    40%{
+        background-image: url("C:\Users\abc\Desktop\images\child2.jpg");
+    }
+    60%{
+        background-image: url("C:\Users\abc\Desktop\images\child3.jpg");
+    }
+    80%{
+        background-image: url("C:\Users\abc\Desktop\images\child4.jpg");
+    }
+    100%{
+        background-image: url("C:\Users\abc\Desktop\images\child5.jpg");
+    }
+    
+}
+ 
+/* animation apply*/
+
+
+.banner-text{
+    position: absolute;
+    top:8%;
+    justify-content:center;
+    text-align: center;
+    margin-left: 8rem;
+}   
+h2{
+    color:#273c75;
+    font-size:xx-large;
+    letter-spacing: 0.3rem;
+}
+span{
+    font-size: 50px;
+    color: #192a56;
+    font-style: italic;
+    
+}
+.banner-text p{
+    margin-bottom: 2rem;
+    font-size: 20px;
+    text-align: center;
+    color:#192a56;
+    font-style: italic;
+    animation: 1.5s linear infinite;
+}
+.img center
+a{
+    text-decoration: none;
+    font-size: x-large;
+    border: none;
+    animation-name: links;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+    background: #dfe4ea;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right:6rem ;
+    padding: 2px;
+    
+}
+img{ 
+width:200%
+height:300% }
+
+@keyframes links{
+    from{color:pink;}
+    to{color:black;}
+}
